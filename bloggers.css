@@ -1,0 +1,172 @@
+
+body{
+
+    height: 100%;
+
+}
+
+.navbar{
+
+    border: 1px solid black;
+    width: 100%;
+    height: 55px;
+    background-color:  rgb(100, 48, 205);
+
+
+}
+
+.title{
+
+    width: 390px;
+    margin-left: 8%;
+
+}
+.titlehead{
+
+
+    color: white;
+    
+}
+.bttn{
+
+    margin-right: 15%;
+   
+
+}
+
+#loginbtn{
+
+    font-size: 18px;
+    font-weight: 500;
+   text-decoration: none;
+    color: white;
+
+}
+
+.Container2{
+
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    padding: 02%;
+    background-color: rgb(249, 248, 249, 0.950);
+    border-style: none;
+
+}
+
+.heading{
+
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 10%;
+
+}
+
+.container3{
+
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 1300px;
+    margin-left: 04%;
+
+}
+/* .bloggerhead{
+
+    border: 1px solid black;
+} */
+
+.bloggerhead h2{
+
+    margin: 02%;
+    margin-left: 10%;
+
+}
+
+.bloggerscontent{
+
+    margin: 3px;
+    /* border: 2px solid black; */
+    width: 98%;
+    height: 1100px;
+    display: flex;
+    gap: 5%;
+}
+
+.coloum1{
+
+    margin: 2%;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 800px;
+
+}
+
+.row1a{
+
+    margin: 2%;
+    /* border: 1px solid black; */
+    background-color: rgb(249, 248, 249, 0.950);
+    width: 80%;
+    height: 250px;
+}
+.row2a{
+
+    margin: 2%;
+    /* border: 1px solid black; */
+    background-color: rgb(249, 248, 249, 0.950);
+
+    width: 80%;
+    height: 480px;
+}
+.coloum2{
+
+    margin: 2%;
+    padding: 3%;
+    width: 30%;
+    height: 650px;
+    margin-left: 08%;
+    background-color: rgb(249, 248, 249, 0.950);
+
+
+}
+
+.row1b{
+
+    margin: 1%;
+    width: 100%;
+    height: 100px;
+    margin-left: 8%;
+}
+.row2b{
+
+    margin: 2%;
+    width: 100%;
+    height: 400px;
+}
+#bloggerpictitle{
+
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    margin-top: 90%;
+    
+    
+
+
+}
+
+#blogerpic{
+
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    margin-right: 0%;
+
+}
+h3{
+
+    margin-left: 14%;
+    color: rgb(100, 48, 205);
+    font-weight: 600;
+    font-size: 28px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blogs</title>
+
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+    
+
+    <!-- Main Container -->
+
+    <div class="maincontainer">
+
+        
+        <!-- navbar -->
+
+        <div class="navbar">
+
+            <div class="title">
+
+                <h2 class="titlehead"> Personal Blogging App</h2>
+
+            </div>
+
+            
+            <div class="bttn">
+                
+                <!-- Blogs Page btn -->
+                <div class="Blogs">
+                <a href="./bloggers.html" id="Blogpagebtn"> Blogs</a>
+                </div>
+                <!-- profile btn -->
+                <div class="profile">
+                <a href="./profile.html" id="profilebtn"> Profile</a>
+                </div>
+
+                 <!-- logout btn -->
+                 <div class="logout">
+                <a href="./login.html" id="logoutbtn">Login</a>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+        <!-- Dashboard Title -->
+
+        <div class="Container2">
+
+            <h2 class="heading"> Dashboard</h2>
+
+
+        </div>
+
+        <div class="Container3">
+
+            <div class="blogadd">
+             <input type="text" id="inpt" placeholder="Enter Blog Title" minlength="5" maxlength="10" required> <br> <br>
+             <!-- <input  id="discript"  placeholder="What is in your mind.."> <br> <br> -->
+             <textarea name="discription" id="discript" cols="30" rows="10" placeholder="What is in your mind.." minlength="10" maxlength="3000" required></textarea> <br> <br>
+           
+             <button id="Publishbtn">Publish Blog</button> <br> <br>
+             
+
+             <div class="blogtitle">
+             <h2 class="blogheading">My Blogs</h2>
+            </div>
+           <div class="cotainer3a"> <br>
+            
+        
+
+            <div id="showblog">
+
+                  <!-- <div id="blogerimgdiv">
+
+                      <img src="" id="blogerpic">
+   
+                  </div> -->
+
+                   <!-- <button id="delebtn" onclick="delpic()">Delete Picture</button> -->
+             </div>
+
+             </div>
+        
+             
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <script src="./index.js" type="module"></script>
+
+</body>
+</html>
